@@ -1,8 +1,23 @@
 qstorejs
 ========
-
 An offline data queue store for modern browser
 
+What is Qstore.JS?
+------------------
+Qstore.JS is a small asynchronous javascript object mapper library that uses IndexedDB for storing data queue that can be synchronized to server side database such as MySQL or PostgresDB. 
+
+Installation
+------------
+Just grab [qstore.min.js] and include them with a script tag.
+
+```html
+<script src="qstore.min.js"></script>
+<script>
+  // use the api as described above 
+</script>
+```
+APIs
+------------------
 ```js
 // Detect database availability
 qstore.detect().done(function(db){
@@ -58,21 +73,6 @@ qstore.detect().done(function(db){
 }).error(function(err){
 }); // end of detect
 
-```
-
-What is Qstore.JS?
-------------------
-Qstore.JS is a small asynchronous javascript object mapper library that uses IndexedDB for storing data queue that can be synchronized to server side database such as MySQL or PostgresDB. 
-
-Installation
-------------
-Just grab [qstore.min.js] and include them with a script tag.
-
-```html
-<script src="qstore.min.js"></script>
-<script>
-  // use the api as described above 
-</script>
 ```
 
 Supported browsers
