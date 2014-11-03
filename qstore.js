@@ -61,7 +61,10 @@ var qstore = (function(){
 			if (!localStorage.dbVer){
 				localStorage.dbVer=1;
 			};
-			objName="[object IDBFactory]";
+			if (objName=="[object Object]"){
+				//possibly use shim
+				objName="[object IDBFactory]";
+			};			
 			
 			switch (objName){
 				case "[object IDBFactory]": 
