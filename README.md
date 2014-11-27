@@ -1,6 +1,6 @@
 qstorejs
 ========
-A very ligthweight (7kb minified) javascript object mapper for IndexedDB
+A very lightweight (7kb minified) javascript object mapper for IndexedDB
 
 What is Qstore.JS?
 ------------------
