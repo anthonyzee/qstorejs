@@ -4,7 +4,7 @@ A very lightweight (7kb minified) javascript object mapper for IndexedDB
 
 What is Qstore.JS?
 ------------------
-Qstore.JS is a small asynchronous javascript object mapper library that uses IndexedDB for storing data queue that can be synchronized to server side database such as MySQL or PostgresDB. 
+Qstore.JS is a very lightweight asynchronous javascript object mapper library that uses IndexedDB for storing data which can be synchronized to server side database such as MySQL or PostgresDB. 
 
 Installation
 ------------
