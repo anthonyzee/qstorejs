@@ -18,7 +18,7 @@ Just grab [qstore.min.js] and include them with a script tag. JQuery not require
 ```
 More Information
 ------------------
-* Todo Application example: [http://pictoboard.net/qstorejs/example/todo.html](http://pictoboard.net/qstorejs/example/todo.html)
+* Todo Application example: [http://pictoboard.net/qstorejs/example/test.html](http://pictoboard.net/qstorejs/example/test.html)
 * API documentation: [http://pictoboard.net/qstorejs/doc/qstore.html](http://pictoboard.net/qstorejs/doc/qstore.html)
 
 Supported browsers
