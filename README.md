@@ -81,3 +81,7 @@ Supported browsers
  - Tested in Chrome 11+
  - Tested in Safari 5 (need indexedDB shim from http://nparashuram.com/IndexedDBShim/)
  - Tested in IE10
+
+License
+------------------
+QstoreJS is covered by the MIT License. See LICENSE for more information.
