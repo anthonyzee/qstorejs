@@ -1,14 +1,14 @@
 qstorejs
 ========
-A very lightweight (7kb minified) javascript object mapper for IndexedDB
+A very lightweight (7kb minified) javascript object mapper for IndexedDB. 
 
 What is Qstore.JS?
 ------------------
-Qstore.JS is a very lightweight asynchronous javascript object mapper library that uses IndexedDB for storing data which can be synchronized to server side database such as MySQL or PostgresDB. 
+Qstore.JS is a very lightweight asynchronous javascript object mapper library that uses IndexedDB for storing data which can be synchronized to server side database such as MySQL or PostgresDB.  
 
 Installation
 ------------
-Just grab [qstore.min.js] and include them with a script tag.
+Just grab [qstore.min.js] and include them with a script tag. JQuery not required.
 
 ```html
 <script src="qstore.min.js"></script>
