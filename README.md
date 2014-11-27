@@ -1,6 +1,6 @@
 qstorejs
 ========
-An offline data queue store for modern browser
+A very ligthweight (7kb minified) javascript object mapper for IndexedDB
 
 What is Qstore.JS?
 ------------------
