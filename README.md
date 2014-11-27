@@ -18,8 +18,8 @@ Just grab [qstore.min.js] and include them with a script tag.
 ```
 More Information
 ------------------
-For Todo Application example, goto http://pictoboard.net/qstorejs/example/todo.html
-For API documentation, goto http://pictoboard.net/qstorejs/doc/qstore.html
+* Todo Application example: [http://pictoboard.net/qstorejs/example/todo.html](http://pictoboard.net/qstorejs/example/todo.html)
+* API documentation: [http://pictoboard.net/qstorejs/doc/qstore.html](http://pictoboard.net/qstorejs/doc/qstore.html)
 
 Supported browsers
 ------------------
