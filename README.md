@@ -23,7 +23,7 @@ More Information
 
 Supported browsers
 ------------------
-QstoreJS supports all popular modern web browser.
+QstoreJS supports all popular modern web browsers.
 
  - Tested in Firefox 4.0+
  - Tested in Chrome 11+
