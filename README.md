@@ -23,6 +23,8 @@ More Information
 
 Supported browsers
 ------------------
+QstoreJS supports all popular modern web browser.
+
  - Tested in Firefox 4.0+
  - Tested in Chrome 11+
  - Tested in Safari 5 (need indexedDB shim from http://nparashuram.com/IndexedDBShim/)
