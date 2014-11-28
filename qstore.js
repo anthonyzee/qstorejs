@@ -137,6 +137,7 @@ var qstore = (function(){
 	 */	 
 	var webIdx;
 	var webDatabase;
+	var dbVer;
 	var dbName;
 	var webStore={};
 	var webItem={};
@@ -289,9 +290,7 @@ var qstore = (function(){
 			var doneCback;
 			var errCback;
 			dbName=pDbName;
-			if (!localStorage.dbVer){
-				localStorage.dbVer=1;
-			}
+
 			if (objName=="[object Object]"){
 				//possibly use shim
 				objName="[object IDBFactory]";
@@ -300,11 +299,12 @@ var qstore = (function(){
 			switch (objName){
 				case "[object IDBFactory]": 
 					if (webDatabase){
-						localStorage.dbVer=parseInt(webDatabase.version)+1;
 						webDatabase.close();
+						dbVer+=1;
+						objReq=pDb.open(pDbName, dbVer);	
+					}else{
+						objReq=pDb.open(pDbName);	
 					}
-					var dbVer=parseInt(localStorage.dbVer);
-					objReq=pDb.open(pDbName, dbVer);	
 					objReq.onerror=function(e){
 						console.log(e);
 						if (errCback){
@@ -317,6 +317,7 @@ var qstore = (function(){
 					objReq.onsuccess=function(e){
 						console.log("onsuccess");
 						webDatabase=e.target.result;
+						dbVer=webDatabase.version+1;
 						doneCback(webIdx);
 					};
 					objReq.onupgradeneeded=function(e){
