@@ -33,7 +33,7 @@ QstoreJS supports all popular modern web browsers.
 Quality Tools
 ------------------
  - Unit Test using JsTestDriver
- - Code Quality using JsHint
+ - Code Compliance using JsHint
  - Documentation using JsDoc
  
 License
